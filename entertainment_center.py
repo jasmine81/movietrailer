@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import media
-import fresh_tomatoes
+import media  # importing packages
+import fresh_tomatoes  # importing packages
 
 hondacity = media.Car("Honda City", "luxury",
                       "http://www.loannow.in/wp-content/uploads"
