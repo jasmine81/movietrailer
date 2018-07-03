@@ -3,6 +3,7 @@ import webbrowser
 
 
 class Car():
+    #creating a class with 4 elements
     VALID_RATINGS = ["EXCELLENT", "GOOD", "BAD", "AVERAGE"]
     # This class created a new car object and sets its attributes
 
