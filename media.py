@@ -1,9 +1,16 @@
-#!/usr/bin/env python
+"""creating a class describing about a car
+    Args:
+      car_title: name of the picture to which it related to
+      poster_image: URL of an image displayed on the screen
+      trailer_youtube:  link of the vedio to be palyed
+    Methods:
+      show_tariler: to play the vedio"""
+# !/usr/bin/env python
 import webbrowser
 
 
 class Car():
-    # creating a class with 4 elements
+    # creating a list of 4 elements
     VALID_RATINGS = ["EXCELLENT", "GOOD", "BAD", "AVERAGE"]
     # This class created a new car object and sets its attributes
 
