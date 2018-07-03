@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import media  # importing packages
 import fresh_tomatoes  # importing packages
-
+# creating variables
 hondacity = media.Car("Honda City", "luxury",
                       "http://www.loannow.in/wp-content/uploads"
                       "/2015/01/next-gen"
@@ -36,4 +36,6 @@ skoda = media.Car("Skoda", "stylish",
                   "Skoda-Superb/047.jpg",
                   "https://www.youtube.com/embed/Ihsn6oLYegY")
 cars = [hondacity, mercedesbenz, verna, amaze, ciaz, xcent, zest, skoda]
+# creating a list
 fresh_tomatoes.open_cars_page(cars)
+# calling function by passing cars as parameters
